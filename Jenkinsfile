@@ -1,6 +1,9 @@
 pipeline {
   agent {
-    label 'jdk9'
+    node {
+      label 'jdk9'
+    }
+
   }
   stages {
     stage('Say Hello') {
