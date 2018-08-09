@@ -28,7 +28,6 @@ pipeline {
         echo "${KERNEL_VERSION}"
       }
     }
-    }
   }
   environment {
     MY_NAME = 'Mary'
